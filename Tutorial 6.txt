@@ -1,0 +1,8 @@
+pada tutorial 6 belajar mengnai maintenance.
+untuk memaintenance caranya:
+
+"php artisan down"
+
+untuk mengembalikan dari maintenance tadi caranya:
+
+"php artisa up"
