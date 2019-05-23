@@ -25,14 +25,16 @@ Route::get('blog', function(){
 
 Route::get('dosen','DosenController@index');
 
-Route::get('/pegawai/{nama}','PegawaiController@index');
+// Route::get('/pegawai/{nama}','PegawaiController@index');
 
-Route::get('/formulir', 'PegawaiController@formulir'); //menjalankan method formulir
+// Route::get('/formulir', 'PegawaiController@formulir'); //menjalankan method formulir
 
-Route::post('/formulir/proses','PegawaiController@proses'); //menjalankan methode proses
+// Route::post('/formulir/proses','PegawaiController@proses'); //menjalankan methode proses
 
 Route::get('/blog', 'BlogController@home');
 
 Route::get('/blog/tentang', 'BlogController@tentang');
 
 Route::get('/blog/kontak', 'BlogController@kontak');
+// route CRUD
+Route::get('/pegawai','PegawaiController@index');
